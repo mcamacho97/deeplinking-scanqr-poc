@@ -8,7 +8,16 @@ export default function HomeScreen({ navigation }: any) {
   return (
     <View style={styles.container}>
       <Button title='Scan QR' onPress={() => navigation.navigate("Scanner")} disabled={!isPermissionGranted}/>
-      <Button title='Request Permissions' onPress={requestPermission} />
+        {
+        isPermissionGranted ? (
+          <Text style={{color: 'green'}}>Camera permission granted</Text>
+        ) : (
+        <>
+          <Text style={{color: 'red'}}>Camera permission not granted</Text>
+          <Button title='Request permission' onPress={requestPermission}/>
+        </>
+        )
+        }
       <Button title='Go to profile' onPress={() => navigation.navigate("Profile", {id: 1})}/>
     </View>
   );
