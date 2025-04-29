@@ -1,5 +1,8 @@
 import { Button, StyleSheet, Text, View } from 'react-native';
 import { useCameraPermissions } from 'expo-camera';
+import WithLogo from './qrGenerator/WithLogo';
+import Shadow from './Shadow';
+
 
 export default function HomeScreen({ navigation }: any) {
   const [permission, requestPermission] = useCameraPermissions();
@@ -7,6 +10,10 @@ export default function HomeScreen({ navigation }: any) {
   const isPermissionGranted = Boolean(permission?.granted);
   return (
     <View style={styles.container}>
+      <Shadow title="QR with logo">
+        <WithLogo />
+      </Shadow>
+
       <Button title='Scan QR' onPress={() => navigation.navigate("Scanner")} disabled={!isPermissionGranted}/>
         {
         isPermissionGranted ? (
