@@ -3,7 +3,7 @@ PODS:
   - DoubleConversion (1.1.6)
   - EXConstants (17.0.8):
     - ExpoModulesCore
-  - Expo (52.0.46):
+  - Expo (52.0.42):
     - ExpoModulesCore
   - ExpoAsset (11.0.5):
     - ExpoModulesCore
@@ -1283,7 +1283,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-safe-area-context (5.4.0):
+  - react-native-safe-area-context (5.3.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1296,8 +1296,8 @@ PODS:
     - React-featureflags
     - React-graphics
     - React-ImageManager
-    - react-native-safe-area-context/common (= 5.4.0)
-    - react-native-safe-area-context/fabric (= 5.4.0)
+    - react-native-safe-area-context/common (= 5.3.0)
+    - react-native-safe-area-context/fabric (= 5.3.0)
     - React-NativeModulesApple
     - React-RCTFabric
     - React-rendererdebug
@@ -1306,7 +1306,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-safe-area-context/common (5.4.0):
+  - react-native-safe-area-context/common (5.3.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1327,7 +1327,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-safe-area-context/fabric (5.4.0):
+  - react-native-safe-area-context/fabric (5.3.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1349,7 +1349,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-skia (1.12.4):
+  - react-native-skia (1.12.3):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1660,7 +1660,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNReanimated (3.17.5):
+  - RNReanimated (3.17.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1682,10 +1682,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated (= 3.17.5)
-    - RNReanimated/worklets (= 3.17.5)
+    - RNReanimated/reanimated (= 3.17.2)
+    - RNReanimated/worklets (= 3.17.2)
     - Yoga
-  - RNReanimated/reanimated (3.17.5):
+  - RNReanimated/reanimated (3.17.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1707,9 +1707,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated/apple (= 3.17.5)
+    - RNReanimated/reanimated/apple (= 3.17.2)
     - Yoga
-  - RNReanimated/reanimated/apple (3.17.5):
+  - RNReanimated/reanimated/apple (3.17.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1732,7 +1732,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNReanimated/worklets (3.17.5):
+  - RNReanimated/worklets (3.17.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1754,9 +1754,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNReanimated/worklets/apple (= 3.17.5)
+    - RNReanimated/worklets/apple (= 3.17.2)
     - Yoga
-  - RNReanimated/worklets/apple (3.17.5):
+  - RNReanimated/worklets/apple (3.17.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2125,7 +2125,7 @@ SPEC CHECKSUMS:
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
   EXConstants: fcfc75800824ac2d5c592b5bc74130bad17b146b
-  Expo: a6ff273c618506b12129a0d06f2a08201bfbcf43
+  Expo: e8f11c8e0290deca7be9254569e23f884b95a777
   ExpoAsset: 48386d40d53a8c1738929b3ed509bcad595b5516
   ExpoCamera: 0a3e78de7b1ca8c438ee6784fa6f22c5b1b36966
   ExpoFileSystem: 42d363d3b96f9afab980dcef60d5657a4443c655
@@ -2166,8 +2166,8 @@ SPEC CHECKSUMS:
   React-logger: a11c709603e1a43c7a3d87746ab6981b21b7c5b5
   React-Mapbuffer: d126b87e242b2ad54c095c098cd73b18ebcf2798
   React-microtasksnativemodule: a68e53dbdea90ce0c96aa2566695141079c7dc5f
-  react-native-safe-area-context: cd38c1fc5fbaff96bf0999b471d0dcb8610e124d
-  react-native-skia: 3ff41b781820eca0f1f351a24e79187595c4a67f
+  react-native-safe-area-context: 1550432038745277e5ce44b4be1abb94306d8f68
+  react-native-skia: 1f6394b2a596681a0e4e61f94a5a8f9548316449
   React-nativeconfig: a0ee536f9c1b8f2ba80fdf95aa4f2d6eb9b79510
   React-NativeModulesApple: d5ad8550bfa8ceae1590d88cfd37f30d41355890
   React-perflogger: a071982fd1a3f708a7f35e9a80acc7709f047fde
@@ -2196,7 +2196,7 @@ SPEC CHECKSUMS:
   ReactCodegen: 6d884ae1e7d4a51a4ca6d3a1a428a89daa8335fd
   ReactCommon: 2b7118eace1eab072a4ccdae57303eaefc2a3941
   RNGestureHandler: 8dab066435239ff9f56934a2dae9080734cfec2b
-  RNReanimated: b36e75017a34ba5ffba1d1af866e37297aab80b0
+  RNReanimated: 59afa9f0bca6f06a00b81aca7ffead85f94682c5
   RNScreens: ba2dcf7048b83669003a28fa95309b965b52af0f
   RNSVG: bbbdd17e8730c0f2a9cb416e5f37be87e29ebc90
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
